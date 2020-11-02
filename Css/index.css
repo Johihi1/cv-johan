@@ -1,0 +1,78 @@
+html{
+    padding: 0;
+    height: 100%;
+    background-color: lightblue;
+}
+body {
+    padding: 0;
+    height: 100%;
+    background-color: lightblue;
+}
+
+main {
+    position: relative;
+    top: 38%;
+    flex: 1;
+    align-items: baseline;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1;
+    font-family: 'Raleway', sans-serif;
+    font-variant-ligatures: none;
+    text-align: center;
+    text-anchor: middle;
+    margin: 0;
+}
+
+header {
+    position: absolute;
+    background-color: slateblue;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    top: 0;
+    left: 0;
+    height: 38%;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1;
+    font-variant-ligatures: none;
+    font-style: normal;
+    font-size: 140%;    
+}
+
+header > ul {
+    justify-content: space-evenly;
+}
+
+header > ul > li {
+    display: inline;
+    padding: 10px 30px;
+}
+
+header > ul > li > a {
+    text-decoration: none;
+    color: rgb(157, 114, 226);
+}
+
+ul {
+    margin: 0;
+}
+
+section {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    outline-color: black;
+}
+
+a {
+    color:cyan;
+}
+
+a:hover {
+    color: darkslategray;
+}
